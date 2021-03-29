@@ -12,9 +12,12 @@ interface RepositoryParams {
 interface Repository {
   full_name: string;
   description: string;
+  html_url: string;
   stargazers_count: number;
   forks_count: number;
   open_issues_count: number;
+  name: string;
+  homepage: string;
   owner: {
     login: string;
     avatar_url: string;
@@ -37,6 +40,7 @@ const Repository: React.FC = () => {
 
   React.useEffect(() => {
     api.get(`repos/${params.repository}`).then((response) => {
+      console.log(response.data);
       setRepository(response.data);
     });
 
@@ -66,7 +70,15 @@ const Repository: React.FC = () => {
               <strong>{repository.full_name}</strong>
               <p>{repository.description}</p>
             </div>
+            <div>
+              <a href={repository.html_url} rel="noreferrer" target="_blank">
+                Abrir repositório
+              </a>
+            </div>
           </header>
+          <section>
+            <p>WebSite: <a href={repository.homepage}>{repository.name}</a></p>
+          </section>
           <ul>
             <li>
               <strong>{repository.stargazers_count}</strong>
@@ -85,15 +97,16 @@ const Repository: React.FC = () => {
       )}
 
       <Issues>
-        {issues.map((issue) => {
+        <p>Issues:</p>
+        {issues.map((issue) => (
           <a key={issue.id} href={issue.html_url}>
             <div>
               <strong>{issue.title}</strong>
               <p>{issue.user.login}</p>
             </div>
             <FiChevronRight size={20} />
-          </a>;
-        })}
+          </a>
+        ))}
       </Issues>
     </>
   );

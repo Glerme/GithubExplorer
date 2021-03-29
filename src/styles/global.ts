@@ -25,7 +25,11 @@ export default createGlobalStyle`
   }
 
   button{ 
-    cursor: spointer;
+    cursor: pointer;
+  }
+
+  a{
+    text-decoration: none;
   }
 
 `;

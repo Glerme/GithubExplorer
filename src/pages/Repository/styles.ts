@@ -1,10 +1,10 @@
 import styled from "styled-components";
+import { shade } from "polished";
 
 export const Header = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   a {
     display: flex;
     align-items: center;
@@ -36,7 +36,7 @@ export const RepositoryInfo = styled.section`
     }
 
     div {
-      margin-left: 24px;
+      margin-left: 50px;
 
       strong {
         font-size: 36px;
@@ -47,6 +47,49 @@ export const RepositoryInfo = styled.section`
         font-size: 18px;
         color: #737380;
         margin-top: 4px;
+        max-width: 500px;
+      }
+
+      & > a {
+        background: #04d361;
+        border-radius: 5px;
+        width: 100%;
+        padding: 26px;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        transition: transform 0.2s;
+        font-size: 1.2rem;
+
+        &:hover {
+          background: ${shade(0.2, "#04d361")};
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+  section {
+    margin: 26px;
+
+    & > p {
+      font-size: 22px;
+      color: #6c6c80;
+
+      & > a {
+        color: #fff;
+        background-color: #04d361;
+        border-radius: 5px;
+        padding: 10px;
+        text-transform: capitalize;
+        transition: transform 0.2s;
+        display: inline-block;
+
+        &:hover{
+          background: ${shade(0.2, "#04d361")};
+          transform: scale(1.1);
+        }
+      
       }
     }
   }
@@ -57,8 +100,7 @@ export const RepositoryInfo = styled.section`
     margin-top: 40px;
 
     li {
-
-      & + li{
+      & + li {
         margin-left: 80px;
       }
 
@@ -77,11 +119,14 @@ export const RepositoryInfo = styled.section`
   }
 `;
 
-
-
 export const Issues = styled.section`
   margin-top: 80px;
   
+  p{
+    font-size: 25px;
+    color: #3d3d4d;
+
+  }
 
   a {
     background: #fff;
@@ -113,7 +158,7 @@ export const Issues = styled.section`
         margin-top: 4px;
       }
 
-      p {
+      & > p {
         font-size: 18px;
         color: #a8a8b3;
         margin-top: 4px;
@@ -125,5 +170,4 @@ export const Issues = styled.section`
       color: #cbcbd6;
     }
   }
-
-`
+`;
