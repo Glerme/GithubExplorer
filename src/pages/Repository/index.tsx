@@ -33,7 +33,7 @@ interface Issue {
   };
 }
 
-const Repository: React.FC = () => {
+const Repositorio: React.FC = () => {
   const { params } = useRouteMatch<RepositoryParams>();
   const [repository, setRepository] = React.useState<Repository | null>(null);
   const [issues, setIssues] = React.useState<Issue[]>([]);
@@ -77,7 +77,7 @@ const Repository: React.FC = () => {
             </div>
           </header>
           <section>
-            <p>WebSite: <a href={repository.homepage}>{repository.name}</a></p>
+            <p>WebSite: <a href={repository.homepage} rel="noreferrer" target="_blank">{repository.name}</a></p>
           </section>
           <ul>
             <li>
@@ -99,7 +99,7 @@ const Repository: React.FC = () => {
       <Issues>
         <p>Issues:</p>
         {issues.map((issue) => (
-          <a key={issue.id} href={issue.html_url}>
+          <a key={issue.id} href={issue.html_url} rel="noreferrer" target="_blank">
             <div>
               <strong>{issue.title}</strong>
               <p>{issue.user.login}</p>
@@ -112,4 +112,4 @@ const Repository: React.FC = () => {
   );
 };
 
-export default Repository;
+export default Repositorio;
