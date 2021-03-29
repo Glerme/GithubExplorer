@@ -40,7 +40,6 @@ const Repositorio: React.FC = () => {
 
   React.useEffect(() => {
     api.get(`repos/${params.repository}`).then((response) => {
-      console.log(response.data);
       setRepository(response.data);
     });
 
