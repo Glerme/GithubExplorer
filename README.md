@@ -1,46 +1,69 @@
-# Getting Started with Create React App
+<h1 align="center">GitHub Explorer</h1>
+<p align="center">Um buscador de repositórios do Github</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img src="https://img.shields.io/static/v1?label=Autor&message=Guilherme_Felipe&color=7159c1&style=for-the-badge&logo=ghost"/>
+    <img src="https://img.shields.io/static/v1?label=Progresso&message=Beta&color=informational&style=for-the-badge&logo=ghost"/>
+    <img src="https://img.shields.io/badge/-@glhermme-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/glhermme">
+</h1>
 
-## Available Scripts
+<p align="center">
+ <a href="#-objetivo">Objetivo</a> •
+ <a href="#-como-utilizar">Como Utilizar</a> •	
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-licença">Licença</a> • 
+ <a href="#-autor">Autor</a>
+</p>
 
-In the project directory, you can run:
+<h4 align="center"> 
+	🚧  Elevando para o próximo level.  🚧
+</h4>
 
-### `yarn start`
+<h1 align="center">
+  <img alt="Print tela inicial" title="telaInicial" src="https://github.com/Glerme/GithubExplorer/blob/main/public/telaInicial.png" />
+</h1>
+<br />
+<hr>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 📈 Objetivo
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Ajudar a guardar repositórios úteis.
+<br />
 
-### `yarn test`
+<hr>
+ 
+### 📝 Como utilizar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clique em Buscar para explorar diversos repositórios no github, os repositórios pesquisados ficam na tela inicial após serem buscados.
 
-### `yarn build`
+<br />
+<hr>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🛠 Tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+As seguintes ferramentas foram usadas na construção do projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Typescript](https://www.typescriptlang.org)
+- [React Js](https://pt-br.reactjs.org)
 
-### `yarn eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 📎 Licença
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Este projeto está sobre a licença MIT.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 👦 Autor
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<a href="https://glerme.github.io">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/Glerme" width="100px;" alt="Perfil"/>
+ <br />
+ <sub><b>Guilherme Felipe</b></sub></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feito com ❤️ por Guilherme Felipe 👋🏽 Entre em contato!
+
+[![Twitter Badge](https://img.shields.io/badge/-@glhermme-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/glhermme)](https://twitter.com/glhermme) [![Linkedin Badge](https://img.shields.io/badge/-Guilherme-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/glerme/)](https://www.linkedin.com/in/glerme/)
+[![Gmail Badge](https://img.shields.io/badge/-guiggff@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:guiggff@gmail.com)](mailto:guiggff@gmail.com)
