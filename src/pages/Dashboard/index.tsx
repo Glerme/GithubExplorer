@@ -68,7 +68,7 @@ const Dashboard: React.FC = () => {
         <input
           value={newRepo}
           onChange={({ target }) => setNewRepo(target.value)}
-          placeholder="Digite o nome do repositório"
+          placeholder="autor/nome"
         ></input>
         <button>Pesquisar</button>
       </Form>
@@ -77,7 +77,10 @@ const Dashboard: React.FC = () => {
 
       <Repositories>
         {repositories.map((repository) => (
-          <Link key={repository.full_name} to={`/repositories/${repository.full_name}`}>
+          <Link
+            key={repository.full_name}
+            to={`/repositories/${repository.full_name}`}
+          >
             <img
               src={repository.owner.avatar_url}
               alt={repository.owner.login}
