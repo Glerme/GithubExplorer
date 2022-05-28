@@ -22,43 +22,19 @@
 
     <meta name="keywords" content="Keywords" />
 
-    <!-- Android  -->
-    <meta name="theme-color" content="red" />
-    <meta name="mobile-web-app-capable" content="yes" />
-
-    <!-- Windows  -->
-    <meta name="msapplication-navbutton-color" content="red" />
-    <meta name="msapplication-TileColor" content="red" />
-    <meta name="msapplication-TileImage" content="ms-icon-144x144.png" />
-
-    <!-- UC Mobile Browser  -->
-    <meta name="full-screen" content="yes" />
-    <meta name="browsermode" content="application" />
-
-    <!-- Disable night mode for this page  -->
-    <meta name="nightmode" content="enable/disable" />
-
-    <!-- Fitscreen  -->
-    <meta name="viewport" content="uc-fitscreen=yes" />
-
-    <!-- Layout mode -->
-    <meta name="layoutmode" content="fitscreen/standard" />
-
-    <!-- imagemode - show image even in text only mode  -->
-    <meta name="imagemode" content="force" />
-
-    <!-- Orientation  -->
-    <meta name="screen-orientation" content="portrait" />
-
-    <!-- Manifest.json  -->
-    <link href="./manifest.json" rel="manifest" />
+    <link rel="manifest" href="manifest.json" />
 
     <title>Github Explorer</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <script>
+    <script type="module">
+      import "https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate";
+      const el = document.createElement("pwa-update");
+      document.body.appendChild(el);
+    </script>
+    <!-- <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", () => {
           navigator.serviceWorker
@@ -67,6 +43,6 @@
             .catch((err) => console.log("Failure: ", err));
         });
       }
-    </script>
+    </script> -->
   </body>
 </html>
