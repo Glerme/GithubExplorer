@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "dev.glerme.explorergit.twa",
+      "sha256_cert_fingerprints": [
+        "8E:EC:6B:AE:F7:A2:EE:02:74:3B:ED:BD:27:C3:73:9E:61:2D:25:18:97:B1:26:6F:B2:B2:81:69:E4:1F:0B:E4"
+      ]
+    }
+  }
+]
