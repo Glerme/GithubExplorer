@@ -7,7 +7,7 @@
   "orientation": "any",
   "scope": "https://explorergit.glerme.dev/",
   "short_name": "explorergit.glerme",
-  "start_url": "https://explorergit.glerme.dev",
+  "start_url": "https://explorergit.glerme.dev/",
   "theme_color": "#ffffff",
   "icons": [
     {
