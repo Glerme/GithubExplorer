@@ -11,18 +11,18 @@
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "/android-chrome-512x512.png",
+      "src": "images/512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "/maskable_icon.png",
+      "src": "images/320x320.png",
       "sizes": "320x320",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/apple-touch-icon.png",
+      "src": "images/48x48.png",
       "sizes": "48x48",
       "type": "image/png"
     }
