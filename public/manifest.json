@@ -5,7 +5,7 @@
   "display": "standalone",
   "name": "explorergit.glerme",
   "orientation": "any",
-  "scope": "/",
+  "scope": "https://explorergit.glerme.dev/",
   "short_name": "explorergit.glerme",
   "start_url": "/",
   "theme_color": "#ffffff",
