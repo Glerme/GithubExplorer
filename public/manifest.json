@@ -1,0 +1,44 @@
+{
+  "name": "github-explorer",
+  "short_name": "github-explorer",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": ".",
+  "start_url": ".",
+  "url": "https://explorergit.vercel.app",
+  "manifestUrl": "https://explorergit.vercel.app/manifest.json",
+  "icons": [
+    {
+      "src": "/assets/android-launchericon-48-48.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/android-launchericon-72-72.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/android-launchericon-96-96.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/android-launchericon-144-144.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/android-launchericon-192-192.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/android-launchericon-512-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
